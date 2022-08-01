@@ -3,8 +3,7 @@ import './widgetLg.scss'
 const WidgetLg = () => {
 
     const Button = (props) =>{
-        console.log(<button className={"widgetLgButton" + props.type}>{props.type}</button>);
-        return <button className={"widgetLgButton" + props.type}>{props.type}</button>
+        return <button className={"widgetLgButton " + props.type}>{props.type}</button>
     };
   return (
     <div className='widgetLg'>
