@@ -64,14 +64,67 @@ export const userData = [
   ];
 
 
+  export const productData = [
+    {
+        name: 'Jan',
+        "Sales": 4000,
+    },
+    {
+        name: 'Feb',
+        "Sales": 3000,
+    },
+    {
+        name: 'Mar',
+        "Sales": 5000,
+    },
+    {
+        name: 'Apr',
+        "Sales": 4500,
+    },
+    {
+        name: 'May',
+        "Sales": 7000,
+    },
+    {
+        name: 'Jun',
+        "Sales": 2000,
+    },
+    {
+        name: 'Jul',
+        "Sales": 5000,
+    },
+    {
+        name: 'Aug',
+        "Sales": 8000,
+    },
+    {
+        name: 'Sep',
+        "Sales": 6500,
+    },
+    {
+        name: 'Oct',
+        "Sales": 3500,
+    },
+    {
+        name: 'Nov',
+        "Sales": 2800,
+    },
+    {
+        name: 'Dec',
+        "Sales": 9000,
+    },
+
+  ];
+
+
   export const productRows = [
-    { id: 1, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Snow',  stock: 35  },
-    { id: 2, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Lannister',  stock: 42 },
-    { id: 3, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Lannister',  stock: 45 },
-    { id: 4, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Stark',  stock: 16 },
-    { id: 5, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Targaryen',  stock: null },
-    { id: 6, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Melisandre',  stock: 150 },
-    { id: 7, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Clifford',  stock: 44 },
-    { id: 8, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Frances',  stock: 36 },
-    { id: 9, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Roxie',  stock: 65 },
+    { id: 1, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Apple pods',  stock: 35  },
+    { id: 2, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Apple pods',  stock: 42 },
+    { id: 3, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Apple pods',  stock: 45 },
+    { id: 4, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Apple pods',  stock: 16 },
+    { id: 5, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Apple pods',  stock: null },
+    { id: 6, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Apple pods',  stock: 150 },
+    { id: 7, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Apple pods',  stock: 44 },
+    { id: 8, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Apple pods',  stock: 36 },
+    { id: 9, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Apple pods',  stock: 65 },
   ];

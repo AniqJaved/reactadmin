@@ -10,7 +10,7 @@ const Chart = (props) => {
         <ResponsiveContainer width="100%" aspect={4/1}>
             <LineChart data={props.data}>
                 <XAxis dataKey="name" stroke='#5550bd'/>
-                <Line type="monotone" dataKey="Active User" stroke="#5550bd"/>
+                <Line type="monotone" dataKey={props.dataKey} stroke="#5550bd"/>
                 <Tooltip/>
                 {props.grid && <CartesianGrid stroke='#e0dfdf' strokeDasharray="5 5"/>}
                 <Legend/>
