@@ -1,4 +1,5 @@
 import { PermIdentity,CalendarToday,PhoneAndroid,MailOutline,LocationSearching, Publish  } from '@material-ui/icons'
+import {Link} from "react-router-dom"
 import './user.scss'
 
 export const User = () => {
@@ -7,7 +8,9 @@ export const User = () => {
         <div className='user'>
             <div className="userTitleContainer">
                 <div className="userTitle">Edit User</div>
-                <button className="userAddButton">Create</button>
+                <Link to="/newUser">
+                    <button className="userAddButton">Create</button>
+                </Link>
             </div>
             <div className="userContainer">
                 <div className="userShow">
