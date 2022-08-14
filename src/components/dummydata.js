@@ -62,3 +62,16 @@ export const userData = [
     { id: 8, status: "active", avatar:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , transaction: "$120.00",  username: 'Frances',  email: 36 },
     { id: 9, status: "active", avatar:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , transaction: "$120.00",  username: 'Roxie',  email: 65 },
   ];
+
+
+  export const productRows = [
+    { id: 1, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Snow',  stock: 35  },
+    { id: 2, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Lannister',  stock: 42 },
+    { id: 3, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Lannister',  stock: 45 },
+    { id: 4, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Stark',  stock: 16 },
+    { id: 5, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Targaryen',  stock: null },
+    { id: 6, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Melisandre',  stock: 150 },
+    { id: 7, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Clifford',  stock: 44 },
+    { id: 8, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Frances',  stock: 36 },
+    { id: 9, status: "active", img:"https://images.pexels.com/photos/1759531/pexels-photo-1759531.jpeg?auto=compress&cs=tinysrgb&w=800" , price: "$120.00",  name: 'Roxie',  stock: 65 },
+  ];
