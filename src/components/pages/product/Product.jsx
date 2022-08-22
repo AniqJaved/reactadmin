@@ -3,6 +3,7 @@ import './product.scss'
 import {Link} from 'react-router-dom'
 import Chart from '../../chart/Chart'
 import {productData} from '../../dummydata'
+import { Publish } from '@material-ui/icons'
 
 export default function Product() {
   return (
@@ -44,7 +45,7 @@ export default function Product() {
             </div>
         </div>
         <div className="productBottom">
-            <div className="productForm">
+            <form className="productForm">
                 <div className="productFormLeft">
                     <label>Product Name</label>
                     <input type="text" placeholder='Apple Airpods' />
@@ -53,9 +54,23 @@ export default function Product() {
                         <option value="yes">Yes</option>
                         <option value="no">No</option>
                     </select>
+                    <label>Active</label>
+                    <select name="active" id="active">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
                 </div>
-                <div className="productFormRight"></div>
-            </div>
+                <div className="productFormRight">
+                    <div className="productUpload">
+                        <img src="https://images.unsplash.com/photo-1606741965429-8d76ff50bb2f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" className="productUploadImg" />
+                        <label for="file">
+                            <Publish/>
+                        </label>
+                        <input type="file" id="file" style={{display: "none"}} />
+                    </div>
+                    <button className="productButton">Update</button>
+                </div>
+            </form>
         </div>
     </div>
     </>
